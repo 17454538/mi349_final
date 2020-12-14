@@ -1,0 +1,181 @@
+html {
+    background-color: #e3e3e3;
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    color: #111111;
+    margin: 0;
+}
+
+p {
+    line-height: 1.25em;
+}
+
+label {
+    display: block;
+    margin-bottom: 1em;
+}
+
+h2 {
+    font-size: large;
+}
+
+.header-link {
+    margin-right: 100px;
+    font-size: small;
+}
+
+.header-link a {
+    color: #111111;
+    text-decoration: none;
+}
+
+.header-link a:hover {
+    color: darkblue;
+    transition: all ease-in-out 0.2s;
+}
+
+.contacts {
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    float: right;
+}
+
+.contacts li {
+    width: 20px;
+    display: inline-block;
+    padding: 0px 5px;
+}
+
+.contacts li a img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+.game {
+    margin-bottom: 40px;
+}
+
+.game img {
+    border-radius: 10%;
+}
+
+.game img:hover {
+    opacity: 0.5;
+    transition: opacity ease-in-out 0.2s;
+}
+
+#page-top {
+    position: -webkit-sticky;
+    position: sticky;
+    top: 0;
+    padding: 20px;
+    padding-bottom: 10px;
+    background-color: #d1d1d1;
+}
+
+#page-title {
+    font-size: larger;
+    border-bottom: 2px solid #3d3d3d;
+    margin-bottom: 5px;
+    padding-bottom: 5px;
+}
+
+#bio-photo {  
+    border: 10px outset #929292;
+    border-radius: 50%;
+
+    width: 300px;
+    height: 300px;
+
+    margin: 40px;
+
+    float: left;
+}
+
+#home-content {
+    padding: 20px;
+    margin-right: 40px;
+    padding-right: 40px;
+}
+
+#home-title {
+    font-size: xx-large;
+    margin-top: 40px;
+}
+
+#home-paragraph {
+    margin-left: 400px;
+
+    font-size: large;
+}
+
+#footer-img {
+    position:fixed;
+    right:0;
+    bottom:0;
+    margin:0;
+    width:25%;
+    display: inline;
+    z-index: -11000;
+}
+
+#copyright-text {
+    font-size: small;
+    margin-top: 20px;
+    margin-left: 40px;
+}
+
+#about {
+    margin: 20px;
+    padding: 10px 20px;
+    width: 750px;
+}
+
+#resume {
+    margin: 20px;
+    padding: 10px 20px;
+    width: 750px;
+
+    background-color: #f1f1f1;
+    border-radius: 5%;
+}
+
+#games {
+    margin: 20px;
+    padding: 10px 20px;
+    width: 750px;
+
+    background-color: #f1f1f1;
+    border-radius: 5%;
+}
+
+
+/* Media Queries */
+@media (max-width: 900px) {
+    .header-link {
+        margin-right: 10px;
+    }
+
+    #bio-photo {
+        width: 100px;
+        height: 100px;
+        border: 2px solid #929292;
+    }
+
+    #home-paragraph {
+        margin-left: 0;
+    
+        font-size: small;
+    }
+}
+
+@media (max-height: 400px) {
+    #page-top {
+        position: static;
+    }
+}
