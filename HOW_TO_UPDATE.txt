@@ -1,0 +1,14 @@
+1. Open Git CMD
+2. Navigate to the folder using
+   cd Desktop
+   cd MI349
+   cd mi349_final
+3. Initiate with
+   git init
+4. Add all of the changed files to the commit using
+   git add *
+5. Commit with a message using
+   git commit -m "Commit message"
+6. Push commits with
+   git push
+7. Done! Netlify updates automatically
