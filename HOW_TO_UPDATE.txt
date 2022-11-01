@@ -12,3 +12,5 @@
 6. Push commits with
    git push
 7. Done! Netlify updates automatically
+
+personal access token: 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
